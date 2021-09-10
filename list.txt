@@ -1,12 +1,13 @@
 4ci-usa.com
 aasolutionsinc.com
 acetechnologies.com
-acsicorp.com
 aclatinc.net
 acmesoftinc.com
+acsicorp.com
 advancedtechno.com
 aerotek.com
 ampcus.com
+amtexsystems.com
 angeliquerecruiting.com
 anviktek.com
 apexnetworks.info
@@ -33,10 +34,10 @@ diverselynx.com
 droisys.com
 e-solutionsinc.com
 e.tflux.co
-edoorsinc.com
 eateam.com
-enterprisesolutioninc.com
+edoorsinc.com
 emonics.com
+enterprisesolutioninc.com
 erostechnologies.com
 eteaminc.com
 exceldynamics.info
@@ -57,9 +58,9 @@ idctechno.com
 idctechnologies.com
 imipeople.com
 infojiniconsulting.com
-infosys.com
 infoorigin.com
 infosoft-inc.com
+infosys.com
 insyncstaffing.jobs
 integratedassociatesinc.com
 intellisystechnology.com
@@ -79,6 +80,7 @@ mamsys.com
 mastech.com
 mastechdigital.com
 mindlance.com
+mindteck.com
 mondo.com
 msici.net
 okayainfo.com
@@ -94,6 +96,7 @@ redsalsa.com
 rht.com
 rjtcompuquest.com
 rpncsystems.com
+rylem.com
 saxonglobal.com
 sigconsult.com
 simplion.com
@@ -122,5 +125,5 @@ ustsmail.com
 varite.com
 vbeyond.com
 vedainfo.com
-vitatechinc.com
 viatechnical.com
+vitatechinc.com
