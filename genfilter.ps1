@@ -25,3 +25,22 @@ $xml += @"
 "@
 
 $xml | Tee-Object -FilePath $OUTPUT_FILE
+
+# Generate a comma separated value file for use for importing into Zoho and other
+# mail systems that do not use the gmail style XML format
+function Generate-CSV-file {
+	$csv = ""
+	$CSV_FILE = ".\mailFilters.csv"
+	
+	foreach($line in Get-Content $DOMAIN_LIST) {
+		$csv += $line + ","
+	}
+	
+	# Remove the last comma
+	$csv = $csv.SubString(0, $csv.Length - 1)
+	
+	# Output the CSV File
+	$csv | Tee-Object -FilePath $CSV_FILE
+}
+
+Generate-CSV-file
