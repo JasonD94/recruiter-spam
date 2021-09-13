@@ -39,17 +39,31 @@ param (
 		[string] $outfile = ".\mailFilters_diffs.csv"
 )
 
+function Generate-CSV {
+    foreach($line in Get-Content $list) {
+        $file += $line + "`n"
+    }
+
+    $file.TrimEnd("\n")
+}
+
 function compareCSV_Files {
 	# https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/compare-object?view=powershell-7.1
 	
 	$file1 = import-csv $mailFilters
 	$file2 = import-csv $blockedDomains
 	
-	Compare-Object $file1 $file2
+	$objects = @{
+		ReferenceObject = (Get-Content $mailFilters)
+		DifferenceObject = (Get-Content $blockedDomains)
+	}
 	
-	Compare-Object $file1 $file2 |
-		Export-Csv -NoType -Path $outfile
+	# This had some helpful tips in the comments, which is how I finally got the file name extracted.
+	# https://stackoverflow.com/questions/36556181/powershell-extract-inputobject-data-from-compare-object-while-comparing-2-csv
+	foreach ($line in Compare-Object @objects) {
+    $line | Select-Object -ExpandProperty InputObject
+	}
 	
 }
 
-compareCSV_Files
+compareCSV_Files | Tee-Object -FilePath $outfile
