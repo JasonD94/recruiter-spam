@@ -7,7 +7,6 @@
 4ci-usa.com
 6developers.com
 6nomads.com
-JustIT.co.uk
 a1people.net
 aalgorithm.com
 aasolutionsinc.com
@@ -412,6 +411,7 @@ joshsoftware.com
 jp-engineering.co.uk
 jp-jobs.com
 judge.com
+justit.co.uk
 kartra.com
 katematthewssolutions.com
 kellyservices.com
