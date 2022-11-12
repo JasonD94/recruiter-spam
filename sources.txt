@@ -1,15 +1,18 @@
 ** Sources **
 
+mitchchauvin / recruiterblocklist: https://github.com/mitchchauvin/recruiterblocklist
+List (1440 lines): https://raw.githubusercontent.com/mitchchauvin/recruiterblocklist/master/recruiter_block_list.txt
+
 LouiseMcMahon on GitHub: https://gist.github.com/LouiseMcMahon/d8823241a216119a93cd9a516e4b6746
-Large list: https://gist.githubusercontent.com/LouiseMcMahon/d8823241a216119a93cd9a516e4b6746/raw/b88964a88b65595fa837f9c21766a0354a43bf2b/Large%2520List
+List (973 lines): https://gist.githubusercontent.com/LouiseMcMahon/d8823241a216119a93cd9a516e4b6746/raw/b88964a88b65595fa837f9c21766a0354a43bf2b/Large%2520List
 
 drcongo / spammy-recruiters: https://github.com/drcongo/spammy-recruiters
-List: https://raw.githubusercontent.com/drcongo/spammy-recruiters/master/spammers.txt
+List (329 lines): https://raw.githubusercontent.com/drcongo/spammy-recruiters/master/spammers.txt
 
-svileng / spammy-recruiters: https://github.com/svileng/spammy-recruiters
+svileng / spammy-recruiters (41 lines): https://github.com/svileng/spammy-recruiters
 
 skyzyx / gmailctl-recruiter-filter: https://github.com/skyzyx/gmailctl-recruiter-filter
-List: https://github.com/skyzyx/gmailctl-recruiter-filter/blob/main/rules.jsonnet
+List (68 lines): https://github.com/skyzyx/gmailctl-recruiter-filter/blob/main/rules.jsonnet
 
 bigdaveyl / spam-driven-recruiting: https://github.com/bigdaveyl/spam-driven-recruiting
-List: https://github.com/bigdaveyl/spam-driven-recruiting/blob/master/email-domains.txt
+List (35 lines): https://github.com/bigdaveyl/spam-driven-recruiting/blob/master/email-domains.txt
