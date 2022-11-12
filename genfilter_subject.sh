@@ -29,7 +29,7 @@ SELF=${0##*/} SDIR=${0%/*}
 # Set some defaults -------------------------------------------------------------------------------------------------- #
 VERSION=0.2
 
-BLOCK_LIST=${BLOCK_LIST:-list_domains.txt}
+BLOCK_LIST=${BLOCK_LIST:-list_subjects.txt}
 OUTPUT_FORMAT=${OUTPUT_FORMAT:-xml}
 OUTPUT_FILE=${OUTPUT_FILE:-mailFilters.$OUTPUT_FORMAT}
 
@@ -79,7 +79,7 @@ cat ${BLOCK_LIST} | while read line; do
     <entry>
         <category term='filter'></category>
         <title>Mail Filter</title>
-        <apps:property name='from' value='${line}'/>
+        <apps:property name='subject' value='${line}'/>
         <apps:property name='label' value='recruiter-spam'/>
         <apps:property name='shouldMarkAsRead' value='true'/>
         <apps:property name='sizeOperator' value='s_sl'/>
